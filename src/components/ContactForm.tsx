@@ -11,7 +11,7 @@ const ContactForm = () => {
     kirimPesan()
   };
   const kirimPesan = () => {
-    const nomorTelepon = "089669623289";
+    const nomorTelepon = "+6289669623289";
     const pesanClient = `hello saya ${Name}. ${Pesan}`;
     // url ke whatsaap saya
     const whatsAppUrl = `https://wa.me/${nomorTelepon}?text=${encodeURIComponent(
