@@ -127,6 +127,14 @@ export default function Home() {
             </Link>
           </div>
         </MotionDiv>
+        {/* 6 */}
+        <MotionDiv variants={fromRight} initial="offScreen" whileInView="WhileInView" exit="exit" viewport={{ once: true , amount: 0.5}} className="md:p-36 p-12 md:mt-[-173px] mt-[-40px] md:ml-[483px] ml-12">
+        <div className="bg-gray-500 md:-12 p-5 justify-center rounded-3xl md:w-[470px] w-64 ">
+          <Link href="https://sportyz.vercel.app/">
+          <Image className="rounded-3xl" src="/sportysz.png" alt="logo" width={400} height={400}/>
+          </Link>
+        </div>
+      </MotionDiv>
       </div>
     </>
   );
