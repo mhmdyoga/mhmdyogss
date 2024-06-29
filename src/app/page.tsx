@@ -135,6 +135,14 @@ export default function Home() {
           </Link>
         </div>
       </MotionDiv>
+      {/* 7 */}
+      <MotionDiv variants={Project} initial="offScreen" whileInView="WhileInView" exit="exit" viewport={{ once: true , amount: 0.5}}  className="md:p-36 p-12 md:mt-[-123px] mt-[-60px] ml-12">
+          <div className="bg-gray-500 md:p-12 p-5 justify-center rounded-3xl md:w-[470px] w-64">
+            <Link href="https:/sneakersco.vercel.app/">
+            <Image className="rounded-3xl" src="/sneakersco-1.png" alt="logo" width={400} height={400}/>
+            </Link>
+          </div>
+        </MotionDiv>
       </div>
     </>
   );
